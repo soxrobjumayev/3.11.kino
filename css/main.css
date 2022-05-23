@@ -1,0 +1,88 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.47);
+}
+
+.movie-item-container{
+    width: 490px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px red;
+    background-color: rgba(165, 42, 42, 0.3);
+    font-weight: 400;
+   
+}
+
+.movie-item-container:hover{
+    background-color: rgb(122, 69, 69);
+    color: aliceblue;
+    transition:5px ;
+}
+.id{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.moviess{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.yearr{
+    display: flex;
+    justify-content: center;
+}
+
+
+.genres{
+    display: flex;
+    justify-content: center;
+
+}
+
+.director{
+    display: flex;
+    justify-content: center;
+
+}
+
+.actors{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+}
+
+.h2{
+    background-color: rgba(165, 42, 42, 0.47);
+    height: 80px;
+    padding: 10px;
+    transform: translateY(8px);
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 44, 44);
+    animation: yozuv 2s 5s infinite;
+   
+}
+@keyframes yozuv {
+
+    0%{
+        transform: skewX(50px);
+    }
+
+    100%{
+        transform: skewX(100px);
+    }
+    
+}
+
